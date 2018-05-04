@@ -23,4 +23,10 @@ public class App
     {
         server.stop();
     }
+
+    // for tests only
+    public static void reset()
+    {
+        MyServlet.reset();
+    }
 }
